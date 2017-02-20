@@ -36,3 +36,38 @@ public class Main {
 		}
 	}
   Here we can see that the method sum has the same return type but argument list is different one gives actual sum and the other gives the ascii value of the character.
+
+2)
+//2)Write a program in Java using Arrays, that sorts the element in a
+//descending order.
+
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Scanner;
+
+public class Main {
+		public static void main(String args[])
+	{
+		Scanner sc= new Scanner(System.in);
+		
+		Integer[] intArray = new Integer[5];
+	for (int i = 0; i < 5; i++) {
+		intArray[i]=sc.nextInt();
+	}
+	Arrays.sort(intArray, Collections.reverseOrder());
+	System.out.println("Output");
+	for (int i = 0; i < intArray.length; i++) 
+		
+	
+	{
+		System.out.println(intArray[i]);
+	}
+	
+	}
+		
+	}
+	
+	
+	
+	
